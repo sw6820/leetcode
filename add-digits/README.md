@@ -1,3 +1,4 @@
+[Discussion Post (created on 27/5/2021 at 1:48)](https://leetcode.com/problems/add-digits/discuss/1298699/Python-3-easy-and-1-line-solution)  
 <h2>258. Add Digits</h2><h3>Easy</h3><hr><div><p>Given an integer <code>num</code>, repeatedly add all its digits until the result has only one digit, and return it.</p>
 
 <p>&nbsp;</p>
