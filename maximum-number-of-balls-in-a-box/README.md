@@ -1,3 +1,4 @@
+[Discussion Post (created on 21/8/2021 at 23:34)](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/discuss/1476934/Python3-1-liner-solution)  
 <h2>1742. Maximum Number of Balls in a Box</h2><h3>Easy</h3><hr><div><p>You are working in a ball factory where you have <code>n</code> balls numbered from <code>lowLimit</code> up to <code>highLimit</code> <strong>inclusive</strong> (i.e., <code>n == highLimit - lowLimit + 1</code>), and an infinite number of boxes numbered from <code>1</code> to <code>infinity</code>.</p>
 
 <p>Your job at this factory is to put each ball in the box with a number equal to the sum of digits of the ball's number. For example, the ball number <code>321</code> will be put in the box number <code>3 + 2 + 1 = 6</code> and the ball number <code>10</code> will be put in the box number <code>1 + 0 = 1</code>.</p>
