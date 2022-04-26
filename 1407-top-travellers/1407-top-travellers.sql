@@ -5,3 +5,4 @@ FROM Users
     ON Users.id = Rides.user_id
 GROUP BY name
 ORDER BY travelled_distance DESC, name ASC
+#
