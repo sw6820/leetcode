@@ -9,6 +9,3 @@ WHERE sales_id NOT IN (
     WHERE name = 'RED'
 )
 ###
-
-
-
