@@ -13,5 +13,4 @@ class Solution:
                 for v,w in G[u]:
                     heapq.heappush(q,(t+w,v))        
         return m if c==n else -1
-        
-        
+###    
