@@ -2,7 +2,7 @@
 SELECT product_name, SUM(unit) AS unit
 FROM Products
 JOIN (
-    SELECT product_id, order_date, unit
+    SELECT product_id, unit
     FROM Orders
     WHERE YEAR(order_date)=2020 AND MONTH(order_date)=2    
 ) AS X
