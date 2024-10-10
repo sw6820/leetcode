@@ -10,4 +10,5 @@ class Solution:
         if p==None and q==None: return 1
         if p==None or q==None or p.val!=q.val:return 0
         return self.isSameTree(p.left,q.left) and self.isSameTree(p.right,q.right)
+    ###
         
