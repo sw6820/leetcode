@@ -6,7 +6,11 @@ class Solution:
         #     if not d[c]:
         #         d[c]=True
         # return len(d)
-        return len(set(s))
+        # return len(set(s))
+        visit=[0]*26
+        for i in s:
+            visit[int(ord(i))-int(ord('a'))]=1
+        return sum(visit)
 
         
 
