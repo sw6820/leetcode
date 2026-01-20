@@ -19,6 +19,7 @@ class Solution:
                 if f:result+=t
             else:result+=t       
             s+=1
+            
         return result
 
 # "and I quote: &quot;...&quot;"
